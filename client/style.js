@@ -1,5 +1,4 @@
-var myCarousel = document.querySelector('#myCarousel')
-var carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 2000,
-  wrap: false
-})
+const currentYear = new  Date();
+document.getElementById("year").innerHTML = currentYear.toDateString();
+//const currentYear = new Date(getFullYear);
+//const year = currentYear.getFullYear();
