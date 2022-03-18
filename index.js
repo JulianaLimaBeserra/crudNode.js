@@ -6,9 +6,9 @@ const server = express();
 server.use(express.json());
 
 const cursos = [
-  "FullStack Master",
-  "Desenvolvimento de Games",
-  "Viver de Youtube",
+  "Filmes",
+  "Musica",
+  "Livros",
 ];
 
 // Retorna um curso
